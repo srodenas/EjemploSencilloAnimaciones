@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TRASLACIÓN -->
+    <Button
+        android:id="@+id/btnTraslacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Traslación" />
+
+    <TextView
+        android:id="@+id/txtTraslacion"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#2196F3"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <!-- ROTACIÓN -->
+    <Button
+        android:id="@+id/btnRotacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rotación" />
+
+    <TextView
+        android:id="@+id/txtRotacion"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#F44336"
+        android:gravity="center"
+        android:text="B"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <!-- ESCALADO -->
+    <Button
+        android:id="@+id/btnEscalado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escalado" />
+
+    <TextView
+        android:id="@+id/txtEscalado"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="C"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <!-- APARICIÓN -->
+    <Button
+        android:id="@+id/btnAparicion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aparición" />
+
+    <TextView
+        android:id="@+id/txtAparicion"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#9C27B0"
+        android:gravity="center"
+        android:text="D"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+</LinearLayout>
